@@ -29,3 +29,17 @@ In this question we use % operator and or operator to solve the question in the 
   for this question we use simple while loop condition and if it true updtae the value.
 ## Final Answer
 5
+## Problem - 3
+``` python
+def fun(a,b):
+if(a and b and(a+b)>0):
+return a+ fun(a-2,b-2)+b
+return a^b
+res = fun(8,8)
+print (res)
+```
+## Approach
+Here for this we use ^ is the bitwise  EOR the compare the value of two number in such way that same bit  will be 0 and different bit should be 1 and then return the function.
+
+## Final Answer
+40
