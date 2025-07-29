@@ -61,3 +61,20 @@ Here for this we use ^ is the bitwise  XOR the compare the value of two number i
 ## Final Anser
 5
 
+## problem 4
+```python
+def fun(a,b):
+for c in range (2,5):
+if((a%2) <(b%3)):
+a = 4%3
+if(5%3 >b):
+a= b
+b=1
+return (a+b)
+print(fun(7,5))
+```
+##Approach
+here for this question we apply loop from 2 to 5 in which apply % operation and using if condition it and return the function for a = 7 and b =5 .
+## Final Answer
+2
+
