@@ -39,7 +39,25 @@ res = fun(8,8)
 print (res)
 ```
 ## Approach
-Here for this we use ^ is the bitwise  EOR the compare the value of two number in such way that same bit  will be 0 and different bit should be 1 and then return the function.
+Here for this we use ^ is the bitwise  XOR the compare the value of two number in such way that same bit  will be 0 and different bit should be 1 and then return the function.
 
 ## Final Answer
 40
+
+## Problem - 4
+```python
+Integer a,b
+Set a=3, b= 3
+a=b
+if(1^1)
+a=1
+Else
+b=2
+End if
+Print a+b
+```
+## Approach
+Here for this we use ^ is the bitwise  XOR the compare the value of two number in such way that same bit  will be 0 and different bit should be 1 for this if condition false the value of b updated to 2 then a= 3 and b= 2 then the result will be 5.
+## Final Anser
+5
+
