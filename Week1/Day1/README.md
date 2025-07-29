@@ -16,3 +16,16 @@
 In this question we use % operator and or operator to solve the question in the first if condition true then the value of y updated and reach the answer.
 ## Final Answer
 1
+- Problem 2
+```python
+ Integer a
+ Set a = 1
+ while(a<5)
+ a = a+2;
+ end while
+ print a
+ ```
+  ## Aproach
+  for this question we use simple while loop condition and if it true updtae the value.
+## Final Answer
+5
